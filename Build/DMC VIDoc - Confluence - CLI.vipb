@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2017-04-20 13:03:41" Modified_Date="2025-12-08 13:43:42" Creator="Jesse Batsche" Comments="" ID="368013cc93c19a61ff3aa48d78d2ba2f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2017-04-20 13:03:41" Modified_Date="2026-01-18 10:37:30" Creator="Jesse Batsche" Comments="" ID="1a9e39654751b01d6c252f7a33d528ed">
   <Library_General_Settings>
     <Package_File_Name>DMC_VIDoc_Confluence_CLI</Package_File_Name>
     <Library_Version>0.8.1.15</Library_Version>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>dmc_vidoc_confluence &gt;= 0.8.1.13</External_Dependencies>
-      <External_Dependencies>dmc_vidoc_core &gt;= 0.8.1.12</External_Dependencies>
+      <External_Dependencies>dmc_vidoc_confluence &gt;= 0.8.1.14</External_Dependencies>
+      <External_Dependencies>dmc_vidoc_core &gt;= 0.8.1.15</External_Dependencies>
       <External_Dependencies>hse_lib_git_api &gt;= 2.3.4.176</External_Dependencies>
       <External_Dependencies>jdp_science_jsontext &gt;= 1.9.1.125</External_Dependencies>
       <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.2.19</External_Dependencies>
@@ -26,10 +26,10 @@
       <External_Dependencies>labview_open_source_lib_epoch_datetime &gt;= 1.3.0.8</External_Dependencies>
       <External_Dependencies>ni_lib_advanced_http_client_api &gt;= 1.1.0.6</External_Dependencies>
       <External_Dependencies>petranway_labview_atlassian_api &gt;= 3.0.0.5</External_Dependencies>
-      <External_Dependencies>petranway_labview_confluence_api &gt;= 0.9.1.1</External_Dependencies>
+      <External_Dependencies>petranway_labview_confluence_api &gt;= 0.9.1.3</External_Dependencies>
       <External_Dependencies>wiresmith_technology_lib_g_cli &gt;= 3.0.1.98</External_Dependencies>
-      <Direct_Dependencies>dmc_vidoc_confluence-0.8.1.13</Direct_Dependencies>
-      <Direct_Dependencies>dmc_vidoc_core-0.8.1.12</Direct_Dependencies>
+      <Direct_Dependencies>dmc_vidoc_confluence-0.8.1.14</Direct_Dependencies>
+      <Direct_Dependencies>dmc_vidoc_core-0.8.1.15</Direct_Dependencies>
       <Direct_Dependencies>hse_lib_git_api-2.3.4.176</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_jsontext-1.9.1.125</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.2.19</Direct_Dependencies>
@@ -37,7 +37,7 @@
       <Direct_Dependencies>labview_open_source_lib_epoch_datetime-1.3.0.8</Direct_Dependencies>
       <Direct_Dependencies>ni_lib_advanced_http_client_api-1.1.0.6</Direct_Dependencies>
       <Direct_Dependencies>petranway_labview_atlassian_api-3.0.0.5</Direct_Dependencies>
-      <Direct_Dependencies>petranway_labview_confluence_api-0.9.1.1</Direct_Dependencies>
+      <Direct_Dependencies>petranway_labview_confluence_api-0.9.1.3</Direct_Dependencies>
       <Direct_Dependencies>wiresmith_technology_lib_g_cli-3.0.1.98</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>

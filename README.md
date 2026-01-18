@@ -15,10 +15,13 @@ This must be called from the working directory you want to analyze.
 - **-pageid** | Page ID for the top level Confluence Page that documentation will be generated under
 
 ## Optional Arguments
-- **-settings** | absolute or relative to working directory relative path to Doc Settings file. Defaults to Default.json included with app
+- **-settings** | absolute or relative to working directory relative path to Doc Settings file.
+  - ***Default***: Default.json included with package
 - **-git** | Flag to include Git History in the documentation
-- **-gittype** | Indicates which Git repo type the Git History would check. Defaults to GitLab, also allows GitHub and BitBucket
-- **-source** | comma separated string of all relative file paths within working directory to include. Recursive search. Defaults to whole working directory
+- **-gittype** | Indicates which Git repo type the Git History would check. 
+  - ***Default***: GitLab, also allows GitHub and BitBucket
+- **-source** | comma separated string of all relative file paths within working directory to include. Recursive search. 
+  - ***Default***: Defaults to whole working directory
 - **-c-settings** | Flag to indicate use the Confluence connection settings from within the Doc Settings File
 - **-c-ini** | Flag to indicate using the Login INI file for Confluence connections
 - **-c-dc** | Indicates Confluence type. If flag present then uses Data Center, otherwise uses Cloud
